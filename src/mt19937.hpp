@@ -19,6 +19,7 @@ class MT19937 {
 
 }
 
+#ifndef _WINDLL
 extern "C" prngCpp::MT19937 * mk_mt19937()
 { return new prngCpp::MT19937(); }
 
@@ -27,3 +28,4 @@ extern "C" uint32_t get_uint32(prngCpp::MT19937 * prng)
 
 extern "C" void del_ptr(prngCpp::MT19937 * prng)
 { if (prng) { delete prng; } }
+#endif

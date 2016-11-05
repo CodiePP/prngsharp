@@ -40,3 +40,23 @@ uint32_t MT19937::get_uint32()
 
 
 } // namespace
+
+#ifdef _WINDLL
+#define DLLEXPORT __declspec( dllexport )
+
+extern "C" DLLEXPORT prngCpp::MT19937 * mk_mt19937()
+{
+	return new prngCpp::MT19937();
+}
+
+extern "C" DLLEXPORT uint32_t get_uint32(prngCpp::MT19937 * prng)
+{
+	return prng ? prng->get_uint32() : 0UL;
+}
+
+extern "C" DLLEXPORT void del_ptr(prngCpp::MT19937 * prng)
+{
+	if (prng) { delete prng; }
+}
+
+#endif
