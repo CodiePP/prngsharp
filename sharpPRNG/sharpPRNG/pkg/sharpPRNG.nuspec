@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+        <id>sharpPRNG</id>
+        <version>1.0.0</version>
+        <title>Mersenne-Twister random number generator</title>
+        <authors>Alexander Diemand</authors>
+        <owners>Alexander Diemand</owners>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/CodiePP/prngsharp</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Mersenne-Twister random number generator from C++11 in .NET</description>
+        <releaseNotes>Released.</releaseNotes>
+        <copyright>Copyright 2016 Alexander Diemand</copyright>
+        <tags>PRNG random number generator C# C++ native</tags>
+        <dependencies>
+        </dependencies>
+      </metadata>
+      <files>
+          <!--file src="lib/sharpPRNG.dll" target="lib/" /-->
+          <file src="lib/sharpPRNG.config" target="lib/" />
+          <file src="content/libprngCpp.so" target="lib/" />
+      </files>
+</package>
