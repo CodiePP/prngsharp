@@ -1,6 +1,7 @@
 # prngsharp
 
-C++11 Mersenne-Twister pseudo random number generator available in .NET
+C++11 Mersenne-Twister pseudo random number generator available in .NET on
+Windows and Mono (Mac OSX, Linux)
 
 
 # how to build
