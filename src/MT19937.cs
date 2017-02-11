@@ -1,5 +1,7 @@
 ﻿using System;
+using System.IO;
 using System.Runtime.InteropServices;
+using System.Reflection;
 
 namespace sharpPRNG
 {
@@ -18,6 +20,15 @@ namespace sharpPRNG
 		{
 			// initialize external mt19937 prng
 			cptr = mk_mt19937();
+/*
+			// check linked assemblies
+			AppDomain ad = AppDomain.CurrentDomain;
+			foreach (Assembly a in ad.GetAssemblies()) {
+				System.Console.WriteLine ("  loaded {0}", a.ToString ());
+				foreach (FileStream str in a.GetFiles()) {
+					System.Console.WriteLine ("    file {0}", str.Name);
+				}
+			} */
 		}
 
 		public void Dispose()
