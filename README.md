@@ -3,9 +3,13 @@
 C++11 Mersenne-Twister pseudo random number generator available in .NET on
 Windows and Mono (Mac OSX, Linux)
 
+# usage
+
+Get the package on [nuget.org](https://www.nuget.org/packages/sharpPRNG/):
+
+```nuget install sharpPRNG```
 
 # how to build
-
 
 ## C++11 library
 
@@ -24,4 +28,3 @@ there is a [project file](sharpPRNG/sharpPRNG.sln) for using [MonoDevelop](http:
 
 ### Windows
 the same project file can be used in Visual Studio.
-
