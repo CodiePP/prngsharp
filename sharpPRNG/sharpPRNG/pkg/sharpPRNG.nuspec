@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
         <id>sharpPRNG</id>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
         <title>Mersenne-Twister random number generator</title>
         <authors>Alexander Diemand</authors>
         <owners>Alexander Diemand</owners>
@@ -19,8 +19,8 @@
       <files>
           <file src="lib/sharpPRNG.dll" target="lib/" />
           <file src="lib/sharpPRNG.dll.config" target="lib/" />
-          <file src="content/libprngCpp.1.0.2.so" target="lib/" />
-          <file src="content/libprngCpp.1.0.2.dylib" target="lib/" />
+          <file src="content/libprngCpp.1.0.4.so" target="lib/" />
+          <file src="content/libprngCpp.1.0.4.dylib" target="lib/" />
           <file src="content/prngCpp.dll" target="lib/" />
       </files>
 </package>
