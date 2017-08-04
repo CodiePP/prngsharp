@@ -1,4 +1,4 @@
-@echo off
+rem @echo off
 
 rem set PLATFRM="x86"
 set PLATFRM="Any CPU"
