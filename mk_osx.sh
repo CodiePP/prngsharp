@@ -8,5 +8,5 @@ OpenSSL_CPPFLAGS="-I${OpenSSL_LIB}/../include"
 
 CFLAGS="-Wall -fPIC -std=c++11 -O2 -Isrc ${OpenSSL_LDFLAGS} ${OpenSSL_CPPFLAGS}"
 
-g++ -shared -o libprngCpp.1.0.4.dylib ${CFLAGS} src/mt19937.cpp
+g++ -shared -o libprngCpp.osx.1.0.4.dylib ${CFLAGS} src/mt19937.cpp
 
