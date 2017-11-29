@@ -11,13 +11,13 @@ namespace prngCpp {
 
 MT19937::MT19937 ()
 {
-    std::clog << "ctor MT19937" << std::endl;
+    //std::clog << "ctor MT19937" << std::endl;
     seeding();
 }
 
 MT19937::~MT19937()
 {
-    std::clog << "dtor ~MT19937" << std::endl;
+    //std::clog << "dtor ~MT19937" << std::endl;
 }
 
 void MT19937::seeding()
