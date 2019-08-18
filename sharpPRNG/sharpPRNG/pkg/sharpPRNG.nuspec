@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
         <id>sharpPRNG</id>
-        <version>1.0.4</version>
+        <version>1.0.5</version>
         <title>Mersenne-Twister random number generator</title>
         <authors>Alexander Diemand</authors>
         <owners>Alexander Diemand</owners>
@@ -11,7 +11,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Mersenne-Twister random number generator from C++11 in .NET</description>
         <releaseNotes>Released.</releaseNotes>
-        <copyright>Copyright 2016-2017 Alexander Diemand</copyright>
+        <copyright>Copyright 2019 Alexander Diemand</copyright>
         <tags>PRNG random number generator C# C++ native</tags>
         <dependencies>
         </dependencies>
@@ -19,8 +19,8 @@
       <files>
           <file src="lib/sharpPRNG.dll" target="lib/" />
           <file src="lib/sharpPRNG.dll.config" target="lib/" />
-          <file src="content/libprngCpp.1.0.4.so" target="lib/" />
-          <file src="content/libprngCpp.1.0.4.dylib" target="lib/" />
+          <file src="content/libprngCpp.linux.1.0.5.so" target="lib/" />
+          <file src="content/libprngCpp.osx.1.0.5.dylib" target="lib/" />
           <file src="content/prngCpp.dll" target="lib/" />
       </files>
 </package>
