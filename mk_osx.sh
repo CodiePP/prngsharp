@@ -10,8 +10,8 @@ CFLAGS_s="-Wall -std=c++11 -O2 -Isrc ${OpenSSL_LDFLAGS} ${OpenSSL_CPPFLAGS}"
 
 export MACOSX_DEPLOYMENT_TARGET="10.11.0"
 
-clang++ -shared -o libprngCpp.osx.1.0.4.dylib ${CFLAGS_dyn} src/mt19937.cpp
-clang++ -c -o libprngCpp_s.osx.1.0.4.o ${CFLAGS_s} src/mt19937.cpp
-ar -qc libprngCpp_s.osx.1.0.4.a libprngCpp_s.osx.1.0.4.o
-ranlib libprngCpp_s.osx.1.0.4.a
+clang++ -shared -o libprngCpp.osx.1.0.5.dylib ${CFLAGS_dyn} src/mt19937.cpp
+clang++ -c -o libprngCpp_s.osx.1.0.5.o ${CFLAGS_s} src/mt19937.cpp
+ar -qc libprngCpp_s.osx.1.0.5.a libprngCpp_s.osx.1.0.5.o
+ranlib libprngCpp_s.osx.1.0.5.a
 

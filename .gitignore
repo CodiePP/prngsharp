@@ -27,3 +27,11 @@
 *.exe
 *.out
 *.app
+
+# compilation artefacts
+sharpPRNG/sharpPRNG.snk
+sharpPRNG/sharpPRNG/bin/
+sharpPRNG/sharpPRNG/obj/
+sharpPRNG/testSharpPRNG/bin/
+sharpPRNG/testSharpPRNG/obj/
+
